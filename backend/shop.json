@@ -1,0 +1,163 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "meghana",
+      "email": "chinkidakoju9@gmail.com",
+      "password": "$2a$10$lQgNzzXefHltu.r2nI/zJunZlm4PlMw2Pic51/pYkPCFGOJJ/ktE.",
+      "role": "customer",
+      "created_at": "2026-05-03T06:26:22.427Z"
+    }
+  ],
+  "products": [
+    {
+      "id": 4,
+      "name": "The Pragmatic Programmer",
+      "description": "Your journey to mastery — 20th anniversary edition.",
+      "price": 49.99,
+      "image_url": "https://images.unsplash.com/photo-1543002588-bfa74002ed7e?w=400",
+      "category": "Books",
+      "stock": 200,
+      "rating": 4.9,
+      "reviews": 12045
+    },
+    {
+      "id": 10,
+      "name": "LEGO Architecture NYC",
+      "description": "New York City skyline set – 598 pieces.",
+      "price": 69.99,
+      "image_url": "https://images.unsplash.com/photo-1587654780291-39c9404d746b?w=400",
+      "category": "Toys",
+      "stock": 40,
+      "rating": 4.8,
+      "reviews": 3412
+    },
+    {
+      "id": 1,
+      "name": "Apple MacBook Pro 14\"",
+      "description": "M3 Pro chip, 18GB RAM, 512GB SSD – perfect for developers.",
+      "price": 1999.99,
+      "image_url": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=400",
+      "category": "Electronics",
+      "stock": 15,
+      "rating": 4.8,
+      "reviews": 2341
+    },
+    {
+      "id": 8,
+      "name": "Instant Pot Duo 7-in-1",
+      "description": "Pressure cooker, slow cooker, rice cooker and more.",
+      "price": 89.99,
+      "image_url": "https://images.unsplash.com/photo-1585515320310-259814833e62?w=400",
+      "category": "Kitchen",
+      "stock": 70,
+      "rating": 4.7,
+      "reviews": 22410
+    },
+    {
+      "id": 2,
+      "name": "Sony WH-1000XM5",
+      "description": "Industry-leading noise cancelling headphones with 30hr battery.",
+      "price": 349.99,
+      "image_url": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=400",
+      "category": "Electronics",
+      "stock": 42,
+      "rating": 4.7,
+      "reviews": 8920
+    },
+    {
+      "id": 5,
+      "name": "Logitech MX Master 3S",
+      "description": "Advanced wireless mouse with ultra-fast scrolling.",
+      "price": 99.99,
+      "image_url": "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=400",
+      "category": "Electronics",
+      "stock": 60,
+      "rating": 4.6,
+      "reviews": 5678
+    },
+    {
+      "id": 9,
+      "name": "Kindle Paperwhite",
+      "description": "Waterproof, 300 ppi glare-free display, weeks of battery.",
+      "price": 139.99,
+      "image_url": "https://images.unsplash.com/photo-1592496001020-d31bd830651f?w=400",
+      "category": "Electronics",
+      "stock": 95,
+      "rating": 4.6,
+      "reviews": 9876
+    },
+    {
+      "id": 11,
+      "name": "Yoga Mat Premium",
+      "description": "Non-slip, eco-friendly, 6mm thick with alignment lines.",
+      "price": 39.99,
+      "image_url": "https://images.unsplash.com/photo-1601925260368-ae2f83cf8b7f?w=400",
+      "category": "Sports",
+      "stock": 120,
+      "rating": 4.5,
+      "reviews": 4501
+    },
+    {
+      "id": 3,
+      "name": "Nike Air Max 270",
+      "description": "Breathable mesh upper with Max Air unit for all-day comfort.",
+      "price": 129.99,
+      "image_url": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400",
+      "category": "Footwear",
+      "stock": 88,
+      "rating": 4.5,
+      "reviews": 3201
+    },
+    {
+      "id": 12,
+      "name": "Mechanical Keyboard TKL",
+      "description": "Tenkeyless, Cherry MX Blue switches, RGB backlit.",
+      "price": 119.99,
+      "image_url": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=400",
+      "category": "Electronics",
+      "stock": 35,
+      "rating": 4.4,
+      "reviews": 2103
+    },
+    {
+      "id": 6,
+      "name": "Samsung 4K Monitor 27\"",
+      "description": "IPS panel, 144Hz, USB-C for productivity and gaming.",
+      "price": 449.99,
+      "image_url": "https://images.unsplash.com/photo-1585792180666-f7347c490ee2?w=400",
+      "category": "Electronics",
+      "stock": 25,
+      "rating": 4.4,
+      "reviews": 1890
+    },
+    {
+      "id": 7,
+      "name": "Levi's 511 Slim Jeans",
+      "description": "Classic slim fit denim in stretch comfort fabric.",
+      "price": 59.99,
+      "image_url": "https://images.unsplash.com/photo-1542272604-787c3835535d?w=400",
+      "category": "Clothing",
+      "stock": 150,
+      "rating": 4.3,
+      "reviews": 6723
+    }
+  ],
+  "cart_items": [
+    {
+      "id": 2,
+      "user_id": 1,
+      "product_id": 2,
+      "quantity": 1
+    }
+  ],
+  "orders": [],
+  "order_items": [],
+  "_counters": {
+    "users": 2,
+    "products": 13,
+    "cart_items": 4,
+    "orders": 1,
+    "order_items": 1
+  }
+}
